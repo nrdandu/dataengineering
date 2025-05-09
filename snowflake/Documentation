@@ -1,1 +1,16 @@
+Initial Configuration
 
+Set up your Snowflake environment (DB, Schema, Warehouse, Table).
+Created a Stage.
+Uploaded a CSV file to the Stage.
+Defined a File Format.
+Used the COPY INTO command to ingest the data.
+Verified the data is in the table.
+
+-- while running a query 
+- using the following for the query to fucntion
+USE DATABASE INSURANCE_PROJECT_DB; -- Or whatever you named the DB where SYNTHETIC_CLAIMS lives
+USE SCHEMA RAW_DATA;          -- Or whatever schema SYNTHETIC_CLAIMS is in
+USE WAREHOUSE ANALYTICS_WH; 
+-OR-
+select db-> schema-> table
